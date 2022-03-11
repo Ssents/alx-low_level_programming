@@ -1,15 +1,17 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- *
+ * Description: printing the various sizes of types
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char c;
 	int i;
 	long int li;
-	long long int lli;
+	long long lli;
 	float f;
 
 	printf("Size of a char: %i byte(s)\n", sizeof(c));
