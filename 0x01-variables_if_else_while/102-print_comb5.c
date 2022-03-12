@@ -15,14 +15,11 @@ int main(void)
 		{
 			if (a < b)
 			{
-				if (a < 10)
-					putchar('0');
-				putchar(a + '0');
+				putchar(a / 10 + '0');
+				putchar(a % 10 + '0');
 				putchar(' ');
-
-				if (b < 10)
-					putchar('0');
-				putchar(b + '0');
+				putchar(b / 10 + '0');
+				putchar(b % 10 + '0');
 				if (a == 98 && b == 99)
 				{
 				}
