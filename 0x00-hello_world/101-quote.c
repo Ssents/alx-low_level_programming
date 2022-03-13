@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char data[] = "and that piece of art is useful\", - Dora Korpar, 2015-10-19";
+	char data[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	int length = sizeof(data);
 	int i;
 
@@ -15,6 +15,7 @@ int main(void)
 	{
 		putchar(data[i]);
 	}
+	putchar('\n');
 
 	return (1);
 }
