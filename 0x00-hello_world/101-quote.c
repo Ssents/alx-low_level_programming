@@ -9,7 +9,7 @@ int main(void)
 {
 	char data1[] = "and that piece of art is useful";
 	char data2[] = " - Dora Korpar, 2015-10-19";
-	int length = sizeof(data1);
+	int length1 = sizeof(data1);
 	int length2 = sizeof(data2);
 	int i;
 
