@@ -1,11 +1,12 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
  * description - custom header file
- * _putchar - return the character
- * return - 1
+ * _putchar - puts the character c in the stdout
+ * @a - character to be printed
+ * Return - on success 1
  */
 
 char _putchar (char a)
 {
-	return (write(1, &c, 1));
+	return (putchar(a));
 }
