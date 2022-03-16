@@ -1,4 +1,5 @@
-#include "main.h"
+#ifndef "main.h"
+#define "main.h"
 /**
  * main - Task 1
  * Description - print _putchar
@@ -18,3 +19,4 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
+#endif
