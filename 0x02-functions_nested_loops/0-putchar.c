@@ -15,7 +15,7 @@ int main(void)
 
 	for (i = 0; i < dl; i++)
 	{
-		_putchar(i);
+		_putchar(t);
 	}
 	
 	_putchar('\n');
