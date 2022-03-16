@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char data = "_putchar";
+	char data[] = "_putchar";
 	int dl = sizeof(data);
 	int i;
 
