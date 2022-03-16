@@ -1,4 +1,5 @@
 #include "main.h"
+#define _putchar
 /**
  * main - Task 0 putchar
  * Description - print _putchar
