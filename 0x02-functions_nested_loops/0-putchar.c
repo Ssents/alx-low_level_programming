@@ -1,5 +1,4 @@
 #include "main.h"
-#define _putchar
 /**
  * main - Task 0
  * Description - Write a function that returns _putchar
