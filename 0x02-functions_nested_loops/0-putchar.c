@@ -9,13 +9,11 @@
 int main(void)
 {
 	char data[] = "_putchar";
-	int dl = sizeof(data);
 	int i;
-	char t = "i";
 
-	for (i = 0; i < dl; i++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(t);
+		_putchar(data[i]);
 	}
 	
 	_putchar('\n');
