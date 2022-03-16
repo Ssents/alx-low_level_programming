@@ -1,34 +1,45 @@
 #include <stdio.h>
+
 /**
- * main - Task 12
- * Description - Two digit number combinations
+ * main - Task 9
+ * Description: Print single digit combinations
  * Return: 0
  */
+
 int main(void)
 {
-	int a;
-	int b;
+	int i;
+	int j;
+	int k;
+	int l;
 
-	for (a = 0; a <= 99; a++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (b = 0; b <= 99; b++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (a < b)
+			for (k = 0; k <= 9; k++)
 			{
-				putchar(a / 10 + '0');
-				putchar(a % 10 + '0');
-				putchar(' ');
-				putchar(b / 10 + '0');
-				putchar(b % 10 + '0');
-				if (a == 98 && b == 99)
+				for (l = 0; l <= 9; l++)
 				{
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
-				}
+					if (l <= k && j <= i)
+					{
+						putchar(l + '0');
+						putchar(k + '0');
+						putchar(' ');
+						putchar(j + '0');
+						putchar(i + '0');
+					}
 
+
+					if (i == 9 && j == 8 && k == 9 && l == 9)
+					{
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
