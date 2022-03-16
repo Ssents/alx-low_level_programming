@@ -10,8 +10,9 @@ int main(void)
 {
 	char data[] = "_putchar";
 	int i;
+	int dl = sizeof(data);
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < dl; i++)
 	{
 		_putchar(data[i]);
 	}

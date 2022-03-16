@@ -1,4 +1,5 @@
 #include <unistd.h>
+
 /**
  * description - custom header file
  * _putchar - puts the character c in the stdout
@@ -7,7 +8,7 @@
  * on error, -1 is returned, and errno is identified
  */
 
-char _putchar (char c)
+int _putchar (char c)
 {
 	return (write(1, &c, 1));
 }
