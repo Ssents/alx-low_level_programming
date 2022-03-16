@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char data[] = "_putchar";
+	char putchar[] = "_putchar";
 	int i = 0;
 
-	while (data[i] != '\0')
+	while (putchar[i] != '\0')
 	{
-		_putchar(data[i]);
+		_putchar(putchar[i]);
 	}
 }
