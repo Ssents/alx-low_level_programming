@@ -1,19 +1,16 @@
 #include "main.h"
-#define _putchar
 /**
- * main - Task 1
+ * main - Task 0 putchar
  * Description - print _putchar
- * Return - 0
+ * Return: 0
  */
 int main(void)
 {
 	char data[] = "_putchar";
-	int i;
-	int dl = sizeof(data);
+	int i = 0;
 
-	for (i = 0; i < dl; i++)
+	while (data[i] != '\0')
 	{
 		_putchar(data[i]);
 	}
-	return (0);
 }
