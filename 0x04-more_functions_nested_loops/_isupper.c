@@ -10,6 +10,6 @@ int _isupper(int c)
 {
 	int isupper;
 
-	isupper = (c >= 65 && c <= 95) || (c >= 'A' && c <= 'Z');
+	isupper = (c >= 'A' && c <= 'Z');
 	return (isupper);
 }
