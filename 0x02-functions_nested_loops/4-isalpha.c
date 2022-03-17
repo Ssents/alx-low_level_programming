@@ -9,5 +9,5 @@ int _isalpha(int c)
 	int lowercase = c >= 97 && c <= 122;
 	int uppercase = c >= 65 && c <= 90;
 
-	return (lowercase && uppercase);
+	return (lowercase || uppercase);
 }
