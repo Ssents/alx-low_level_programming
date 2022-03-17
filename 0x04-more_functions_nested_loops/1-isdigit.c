@@ -10,6 +10,6 @@ int _isdigit(int c)
 {
 	int isdigit;
 
-	isdigit = (c >= 0 && c <= 9);
+	isdigit = (c >= 0 && c <= 9) || (c >= '0' && c <= '9');
 	return (isdigit);
 }
