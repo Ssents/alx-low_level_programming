@@ -1,15 +1,12 @@
 #include "main.h"
 /**
- * _isdigit - checks for digit
- * @c: input value
- * isupper - value to return
- * Return: 0 or 1
+ * mul - checks for digit
+ * @a: input value
+ * @b: input value
+ * Return: product
  */
 
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	int isdigit;
-
-	isdigit = (c >= 0 && c <= 9) || (c >= '0' && c <= '9');
-	return (isdigit);
+	return (a * b);
 }
