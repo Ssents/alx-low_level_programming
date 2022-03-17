@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - return last number
+ * _putchar - returna character
  * @n: character input for fucntion
  * Return: value
  */
@@ -12,5 +13,6 @@ int print_last_digit(int n)
 		value = (n * -1) % 10;
 	else
 		value = n % 10;
+	_putchar(value + '0');
 	return (value);
 }
