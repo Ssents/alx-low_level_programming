@@ -14,17 +14,19 @@ void jack_bauer(void)
 	int j1;
 	int j2;
 
+	i1 = 0;
+
 	while (i1 <= 2)
 	{
-		int i2 = 0;
+		i2 = 0;
 
 		while (i2 <= 9)
 		{
-			int j1 = 0;
+			j1 = 0;
 
 			while (j1 <= 5)
 			{
-				int j2 = 0;
+				j2 = 0;
 
 				while (j2 <= 9)
 				{
