@@ -16,6 +16,6 @@ int print_last_digit(int n)
 		value = (ni * -1) % 10;
 	else
 		value = ni % 10;
-	_putchar(value + '0');
+	_putchar(value);
 	return (value);
 }
