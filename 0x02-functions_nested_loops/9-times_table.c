@@ -22,6 +22,10 @@ void times_table(void)
 			if (mul >= 10)
 				_putchar((mul / 10) + '0');
 			_putchar((mul % 10) + '0');
+
+			if (mul < 10)
+				_putchar(' ');
+
 			if (j < 9)
 			{
 				_putchar(',');
@@ -31,7 +35,6 @@ void times_table(void)
 			j++;
 		}
 
-		_putchar('$');
 		_putchar('\n');
 		i++;
 	}
