@@ -28,6 +28,6 @@ int print_last_digit(int n)
 		}
 	}
 
-	_putchar((int)(value + '0'));
+	_putchar((char)(value));
 	return (value);
 }
