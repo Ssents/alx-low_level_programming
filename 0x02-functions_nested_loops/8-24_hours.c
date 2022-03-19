@@ -1,28 +1,45 @@
 #include "main.h"
 /**
  * jack_bauer - returns all minutes in 24 hours
- * i = int value
- * j - int value
+ * i1 = int value
+ * j1 - int value
+ * i2 - int vaalue
+ * j2 - int value
  */
 
 void jack_bauer(void)
 {
-	int i;
-	int j;
+	int i1;
+	int i2;
+	int j1;
+	int j2;
 
-	for (i = 0; i < 24; i++)
+	i1 = 0;
+	i2 = 0;
+	j1 = 0;
+	j2 = 0;
+
+	while (i1 <= 2)
 	{
-		if (i < 10)
-			_putchar('0');
-		_putchar(i + '0');
-		_putchar(':');
-
-		for (j = 0; j < 60; j++)
+		while (i2 <= 9)
 		{
-			if (j < 10)
-				_putchar('0');
-			_putchar(j + '0');
-			_putchar('\n');
+			while (j1 <= 5)
+			{
+				while (j2 <= 9)
+				{
+					_putchar(i1 + '0');
+					_putchar(i2 + '0');
+					_putchar(':');
+					_putchar(j1 + '0');
+					_putchar(j2 + '0');
+					_putchar('\n');
+
+					j2++;
+				}
+				j1++;
+			}
+			i2++;
 		}
+		i1++;
 	}
 }
