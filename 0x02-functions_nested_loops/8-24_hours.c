@@ -5,28 +5,31 @@
  * j1 - int value
  * i2 - int vaalue
  * j2 - int value
+ * lasthr - int variable
  */
 
 void jack_bauer(void)
 {
-	int i1;
-	int i2;
-	int j1;
-	int j2;
+	int i1 = 0;
+	int lasthr;
 
-	i1 = 0;
 
 	while (i1 <= 2)
 	{
-		i2 = 0;
+		int i2 = 0;
 
-		while (i2 <= 9)
+		if (i1 < 2)
+			lasthr = 9;
+		else
+			lasthr = 3;
+
+		while (i2 <= lasthr)
 		{
-			j1 = 0;
+			int j1 = 0;
 
 			while (j1 <= 5)
 			{
-				j2 = 0;
+				int j2 = 0;
 
 				while (j2 <= 9)
 				{
