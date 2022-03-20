@@ -12,7 +12,7 @@ void print_to_98(int n)
 	int new_num;
 	int limit;
 
-	if (n >= 98)
+	if (n > 98)
 	{
 		new_num = 98;
 		limit = 97;
@@ -32,14 +32,12 @@ void print_to_98(int n)
 
 		_putchar((new_num % 10) + '0');
 
-		if (n < 98)
+		if (n <= 98)
 			new_num++;
-		else if (n == 98)
-			new_num = 98;
 		else
 			new_num = n - 1;
 
-		if ( new_num != limit)
+		if (new_num != limit)
 		{
 			_putchar(',');
 			_putchar(' ');
