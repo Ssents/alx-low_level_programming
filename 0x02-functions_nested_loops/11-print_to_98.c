@@ -20,7 +20,7 @@ void print_to_98(int n)
 	else
 	{
 		limit = 99;
-		new_num = 0;
+		new_num = n;
 	}
 
 	do {
