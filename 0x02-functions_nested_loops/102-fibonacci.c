@@ -20,7 +20,7 @@ int main(void)
 	while (i < 50)
 	{
 		sum = prev + next;
-		print("%i", sum);
+		printf("%i", sum);
 		prev = next;
 		next = sum;
 		if (i != 49)
