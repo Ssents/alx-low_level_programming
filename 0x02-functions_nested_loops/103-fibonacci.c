@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	long long int i;
+	long int i;
 	long int next;
 	long int prev;
 	long int sum;
@@ -27,6 +27,6 @@ int main(void)
 
 		i = i + next;
 	}
-	printf("%llu\n", i);
+	printf("%lu\n", i);
 	return (0);
 }
