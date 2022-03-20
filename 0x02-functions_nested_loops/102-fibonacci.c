@@ -12,9 +12,9 @@
 int main(void)
 {
 	int i;
-	int next;
-	int prev;
-	int sum;
+	long int next;
+	long int prev;
+	long int sum;
 
 	prev = 0;
 	i = 0;
@@ -22,10 +22,10 @@ int main(void)
 	while (i < 50)
 	{
 		sum = prev + next;
-		printf("%d", sum);
+		printf("%lu", sum);
 		prev = next;
 		next = sum;
-		if (i != 48)
+		if (i != 49)
 			printf(", ");
 		i++;
 	}
