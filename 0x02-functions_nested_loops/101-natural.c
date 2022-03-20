@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * natural_b1024 - print natural numbers below 1024
  * i: count variable
