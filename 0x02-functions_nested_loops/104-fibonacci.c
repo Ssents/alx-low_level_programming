@@ -15,15 +15,11 @@ int main(void)
 	long int next;
 	long int prev;
 	long int sum;
-	long int front;
-	long int back;
 	long int max = 10 ^ 19;
 
 	prev = 0;
 	i = 0;
 	next = 1;
-	front = 0;
-	back = 0;
 	while (i < 98)
 	{
 		if ((prev + next < max))
