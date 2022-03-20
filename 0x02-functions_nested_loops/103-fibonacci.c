@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int i;
+	long long int i;
 	long int next;
 	long int prev;
 	long int sum;
