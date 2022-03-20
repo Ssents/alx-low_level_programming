@@ -25,7 +25,7 @@ int main(void)
 		printf("%lu", sum);
 		prev = next;
 		next = sum;
-		if (i != 98)
+		if (i != 97)
 			printf(", ");
 		i++;
 	}
