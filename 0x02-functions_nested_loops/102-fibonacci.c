@@ -18,13 +18,15 @@ int main(void)
 
 	prev = 0;
 	i = 0;
-	while (i < 50)
+	next = 1;
+	printf("%i, ", next);
+	while (i < 49)
 	{
 		sum = prev + next;
 		printf("%i", sum);
 		prev = next;
 		next = sum;
-		if (i != 49)
+		if (i != 48)
 			printf(", ");
 		i++;
 	}
