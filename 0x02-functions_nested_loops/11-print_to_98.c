@@ -30,7 +30,7 @@ void print_to_98(int n)
 		if (new_num >= 10)
 			_putchar(((new_num % 100) / 10) + '0');
 
-		_putchar(new_num + '0');
+		_putchar((new_num % 10) + '0');
 		_putchar(',');
 		_putchar(' ');
 
