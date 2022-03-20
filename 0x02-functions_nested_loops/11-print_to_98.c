@@ -31,8 +31,6 @@ void print_to_98(int n)
 			_putchar(((new_num % 100) / 10) + '0');
 
 		_putchar((new_num % 10) + '0');
-		_putchar(',');
-		_putchar(' ');
 
 		if (n < 98)
 			new_num++;
@@ -40,6 +38,12 @@ void print_to_98(int n)
 			new_num = 98;
 		else
 			new_num = n - 1;
+
+		if ( new_num != limit)
+		{
+			_putchar(',');
+			_putchar(' ');
+		}
 
 	} while (new_num != limit);
 	_putchar('\n');
