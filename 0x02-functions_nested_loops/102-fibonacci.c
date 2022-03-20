@@ -12,9 +12,9 @@
 int main(void)
 {
 	int i;
-	double next;
-	double prev;
-	double sum;
+	int next;
+	int prev;
+	int sum;
 
 	prev = 0;
 	i = 0;
