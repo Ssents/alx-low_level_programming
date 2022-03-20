@@ -17,7 +17,7 @@ int main(void)
 	long int sum;
 
 	prev = 0;
-	i = 1;
+	i = 0;
 	next = 1;
 	while (next <= 4000000)
 	{
@@ -25,7 +25,8 @@ int main(void)
 		prev = next;
 		next = sum;
 
-		i = i + next;
+		if ((next % 2) == 0)
+			i = i + next;
 	}
 	printf("%lu\n", i);
 	return (0);
