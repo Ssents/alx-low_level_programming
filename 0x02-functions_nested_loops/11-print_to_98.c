@@ -33,9 +33,9 @@ void print_to_98(int n)
 		}
 		else
 			neg = 1;
-		if (new_num >= 100)
+		if (new_num >= 100 || new_num <= 100)
 			_putchar(((new_num * neg) / 100) + '0');
-		if (new_num >= 10)
+		if (new_num >= 10 || new_num <= 10)
 			_putchar((((new_num * neg) % 100) / 10) + '0');
 		_putchar(((new_num * neg) % 10) + '0');
 		if (n <= 98)
