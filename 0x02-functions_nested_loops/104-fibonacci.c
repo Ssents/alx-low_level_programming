@@ -22,6 +22,8 @@ int main(void)
 	prev = 0;
 	i = 0;
 	next = 1;
+	front = 0;
+	back = 0;
 	while (i < 98)
 	{
 		if ((prev + next < max))
