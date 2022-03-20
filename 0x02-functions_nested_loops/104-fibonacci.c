@@ -15,7 +15,7 @@ int main(void)
 	long int next;
 	long int prev;
 	long int sum;
-	long int max = 100000000000;
+	long int max = 10000000000000000000;
 
 	prev = 0;
 	i = 0;
