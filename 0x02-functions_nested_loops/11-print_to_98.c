@@ -14,7 +14,7 @@ void print_to_98(int n)
 
 	if (n > 98)
 	{
-		new_num = 98;
+		new_num = n;
 		limit = 97;
 	}
 	else
@@ -35,7 +35,7 @@ void print_to_98(int n)
 		if (n <= 98)
 			new_num++;
 		else
-			new_num = n - 1;
+			new_num = new_num - 1;
 
 		if (new_num != limit)
 		{
