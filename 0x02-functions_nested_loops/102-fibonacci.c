@@ -17,6 +17,7 @@ int main(void)
 	int sum;
 
 	prev = 0;
+	i = 0;
 	while (i < 50)
 	{
 		sum = prev + next;
