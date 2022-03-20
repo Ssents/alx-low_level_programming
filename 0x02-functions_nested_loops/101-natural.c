@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
- * natural_b1024 - print natural numbers below 1024
+ * main - print natural numbers below 1024
+ * Description - print all natural multiples of 3 and 5 below 1024
  * i: count variable
+ * Return: always 0
  */
 
-void natural_b1024(void)
+int main(void)
 {
 	int i;
 
@@ -18,4 +20,6 @@ void natural_b1024(void)
 		}
 	}
 	putchar('\n');
+
+	return (0);
 }
