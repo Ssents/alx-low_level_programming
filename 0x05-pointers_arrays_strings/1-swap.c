@@ -2,7 +2,6 @@
 /**
  * swap_int -function to swap valus
  * @a: input variable
- * @temp: temporary value
  * @b: another variable
  */
 
