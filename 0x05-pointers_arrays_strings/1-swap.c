@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * reset_to_98 -function to swap valus
+ * swap_int -function to swap valus
  * @a: input variable
  * @temp: temporary value
- * temp1: variable
  * @b: another variable
  */
 
