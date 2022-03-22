@@ -2,13 +2,12 @@
 /**
  * reset_to_98 -functions changes value to 98
  * @n: input variable
- * *p: pointer
+ * p: pointer variable
  */
 
 void reset_to_98(int n)
 {
-	int *p;
+	int *p = &n;
 
-	p = &n;
-	*p = 98;
+	p = 98;
 }
